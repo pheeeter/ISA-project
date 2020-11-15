@@ -1,5 +1,5 @@
 CC=g++
-SRC=src/dns.cpp
+SRC=src/dns.cpp src/file.cpp
 BIN=dns
 FLAGS= -std=c++11 -Wall -Wextra
 
