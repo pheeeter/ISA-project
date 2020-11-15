@@ -1,0 +1,22 @@
+Varianta: Filtrujúci DNS resolver
+Autor: Peter Koprda (xkoprd00)
+
+Popis programu dns:
+
+Program dns je ktorý filtruje dotazy typu A smerujúce na domény v rámci dodaného zoznamu a ich poddomény.
+
+Spustenie programu:
+
+./dns -s server [-p port] -f file
+
+Príklady spustenia:
+
+$ ./dns -s dns.google -p 3333 -f unwanted_domains
+
+Zoznam odovzdaných súborov:
+1. dns.cpp
+2. file.cpp
+3. dns.hpp
+4. Makefile
+5. manual.pdf
+6. README
