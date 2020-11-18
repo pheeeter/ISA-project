@@ -3,7 +3,7 @@ Autor: Peter Koprda (xkoprd00)
 
 Popis programu dns:
 
-Program dns je ktorý filtruje dotazy typu A smerujúce na domény v rámci dodaného zoznamu a ich poddomény.
+Program dns je program, ktorý filtruje dotazy typu A smerujúce na domény v rámci dodaného zoznamu a ich poddomény.
 
 Spustenie programu:
 
@@ -12,11 +12,16 @@ Spustenie programu:
 Príklady spustenia:
 
 $ ./dns -s dns.google -p 3333 -f unwanted_domains
+$ sudo ./dns -s dns.google -f unwanted_domains 
+
+Zobrazenie nápovedy:
+$ ./dns -h
 
 Zoznam odovzdaných súborov:
 1. dns.cpp
-2. file.cpp
-3. dns.hpp
-4. Makefile
-5. manual.pdf
-6. README
+2. servers.cpp
+3. file.cpp
+4. dns.hpp
+5. Makefile
+6. manual.pdf
+7. README
